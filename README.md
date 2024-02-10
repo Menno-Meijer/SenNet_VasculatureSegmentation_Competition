@@ -13,6 +13,6 @@ These 4-panel images were generated on 3 whole kidney volume rotations, with 40%
 ## Submission
 For the competition submission the kidney slices were split up in patches with 10% overlap. Each patch in 4-panel image was 4 times rotated on each own. Whereafter, the mean was taken of the rotated patches. The mean was taken of all the patches in the separate 4-panel images, as most patches were predicted 4 times (once for each quarter of the 4-panel). These patches were merged with the ‘max’ setting, generating a segmentation mask in the original resolution. This was performed for the xy, xz, yz rotations of the whole kidney volume.
 
-Link to the Kaggle write up: [13th place solution: 4-panel solo model](https://www.kaggle.com/competitions/blood-vessel-segmentation/discussion/475117)
-Link to the Kaggle inference notebook: [SenNet-HOA23 | 2.5D 4-panel | submission](https://www.kaggle.com/code/menno1111/sennet-hoa23-2-5d-4-panel-submission/notebook)
+* Link to the Kaggle write up: [13th place solution: 4-panel solo model](https://www.kaggle.com/competitions/blood-vessel-segmentation/discussion/475117)
+* Link to the Kaggle inference notebook: [SenNet-HOA23 | 2.5D 4-panel | submission](https://www.kaggle.com/code/menno1111/sennet-hoa23-2-5d-4-panel-submission/notebook)
 
